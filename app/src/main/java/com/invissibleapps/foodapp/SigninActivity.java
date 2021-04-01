@@ -14,7 +14,7 @@ public class SigninActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
-        getSupportActionBar().setTitle("Signin");
+        getSupportActionBar().setTitle("Sign In");
 
         dontHaveanAccount = findViewById(R.id.dont_have_anaccount);
         dontHaveanAccount.setOnClickListener(new View.OnClickListener() {

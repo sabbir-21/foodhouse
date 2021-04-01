@@ -129,6 +129,7 @@
                         android:drawableStart="@drawable/facebooklogo"
                         android:gravity="center"
                         android:padding="10dp"
+                        android:layout_marginRight="5dp"
                         android:text="Facebook"
                         android:textColor="@color/white" />
 
@@ -141,6 +142,7 @@
                         android:drawableStart="@drawable/googlelogo"
                         android:gravity="center"
                         android:padding="10dp"
+                        android:layout_marginLeft="5dp"
                         android:text="Google"
                         android:textColor="@color/white" />
 
