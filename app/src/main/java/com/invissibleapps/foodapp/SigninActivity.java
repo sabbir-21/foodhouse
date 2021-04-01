@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class SignupActivity extends AppCompatActivity {
+public class SigninActivity extends AppCompatActivity {
 
-    TextView alreadyHaveanAccount;
+    TextView dontHaveanAccount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
-        getSupportActionBar().setTitle("Sign Up");
+        setContentView(R.layout.activity_signin);
+        getSupportActionBar().setTitle("Signin");
 
-        alreadyHaveanAccount = findViewById(R.id.already_Havean_Account);
-        alreadyHaveanAccount.setOnClickListener(new View.OnClickListener() {
+        dontHaveanAccount = findViewById(R.id.dont_have_anaccount);
+        dontHaveanAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignupActivity.this, SigninActivity.class);
+                Intent intent = new Intent(SigninActivity.this, SignupActivity.class);
                 startActivity(intent);
             }
         });

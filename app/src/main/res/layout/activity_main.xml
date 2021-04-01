@@ -42,7 +42,7 @@
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/signin_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
@@ -51,7 +51,7 @@
             android:textColor="#FFF" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button2"
+            android:id="@+id/signup_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -68,7 +68,5 @@
             android:text="Continue without signing"
             android:textColor="#FFFFFF"
             android:textStyle="bold" />
-
     </LinearLayout>
-
 </RelativeLayout>
